@@ -3,7 +3,7 @@ kind:  Service
 metadata:
   name:  httpd-svc
 spec:
-  selector:	3
+  selector:
     run:  httpd
   ports:
   - protocol:  TCP
