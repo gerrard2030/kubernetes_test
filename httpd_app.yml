@@ -1,4 +1,4 @@
-apiVersion:	apps/v1beta1
+apiVersion:  apps/v1beta1
 kind:  Deployment
 metadata:
   name:  httpd
@@ -13,4 +13,4 @@ spec:
       - name:  httpd
         image:	httpd
         ports:
-        - containerPort: 80
+        - containerPort:  80
