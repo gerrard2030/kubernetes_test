@@ -5,12 +5,12 @@ metadata:
 spec:
   replicas:	3
   template:
-	metadata:
-	  labels:
-	    run:  httpd
-	spec:
+    metadata:
+      labels:
+	run:  httpd
+    spec:
       containers:
       - name:  httpd
-		image:	httpd
-		ports:
-		- containerPort: 80
+	image:	httpd
+	ports:
+	- containerPort: 80
